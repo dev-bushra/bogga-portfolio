@@ -1,7 +1,7 @@
 <?php
 
   // The receiving email address 
-  $receiving_email_address = 'a.a.a.alnial@gmail.com';
+  $receiving_email_address = 'bushragtv@gmail.com';
 
   // Check if the file 'php-email-form.php' is exists
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
