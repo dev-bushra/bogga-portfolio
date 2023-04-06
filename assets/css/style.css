@@ -57,6 +57,33 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 
+.back-to-top-resume {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 64px !important;
+  bottom: 15px;
+  z-index: 996;
+  background: #0563bb;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+.back-to-top-resume i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+.back-to-top-resume:hover {
+  background: #0678e3;
+  color: #fff;
+}
+.back-to-top-resume.active {
+  visibility: visible;
+  opacity: 1;
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -305,6 +332,12 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
   }
 }
+.app_icon {
+  min-width: 35px;
+}
+.photoshop_icon {
+  content: url('https://api.iconify.design/logos/adobe-photoshop.svg');
+}
 
 /*--------------------------------------------------------------
 # Sections General
@@ -419,7 +452,10 @@ section {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
 }
-
+.purecounter::after{
+  content: '+';
+  font-size: 14px;
+}
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
