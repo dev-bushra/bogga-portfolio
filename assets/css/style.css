@@ -334,10 +334,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 .app_icon {
   min-width: 35px;
+    max-width: 35px;
 }
 .photoshop_icon {
   content: url('https://api.iconify.design/logos/adobe-photoshop.svg');
 }
+.illustrator_icon {
+  content: url('https://api.iconify.design/logos/adobe-illustrator.svg');
+}
+.indesign_icon {
+  content: url('https://api.iconify.design/logos/adobe-indesign.svg');
+}
+.xd_icon {
+  content: url('https://api.iconify.design/logos/adobe-xd.svg');
+}
+.aftereffect_icon {
+  content: url('https://api.iconify.design/logos/adobe-after-effects.svg');
+}
+.threedmax_icon {
+  content: url('https://img.icons8.com/color/256/3ds-max.png');
+}
+.cinema4d_icon {
+  content: url('https://img.icons8.com/color/256/cinema-4d.png');
+}
+
 
 /*--------------------------------------------------------------
 # Sections General
