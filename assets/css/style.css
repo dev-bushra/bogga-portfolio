@@ -434,7 +434,19 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
+.custom-counter li {
+  padding: 5px;
+}
+.custom-counter li:before {
+    content: '';
+    display: inline-block;
+    margin: 4px 8px 0px 0;
+    border: 3px solid #2A6EB9;
+    padding: 0;
+    border-radius: 50%;
+    min-width: 12px;
+    min-height: 12px;
+}
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
